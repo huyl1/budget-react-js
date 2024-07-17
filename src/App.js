@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Spending from "./components/Spending";
-import Budget from "./components/Budget";
-import TransactionHistory from "./components/TransactionHistory";
+import AddTransaction from "./components/AddTransaction";
+import TransactionList from "./components/TransactionList";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <div className="container">
         <Spending />
-        <Budget />
-        <TransactionHistory />
+        <AddTransaction />
+        <TransactionList />
       </div>
     </div>
   );
